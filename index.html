@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="javascriptreact">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- header section... -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="https://s.tmimgcdn.com/scr/1200x750/177500/coffee-sup-logo-on-black-background-logo-template_177553-original.jpg" alt="">
+        </a>
+
+        <div class="navbar" id="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contacts">contacts</a>
+            <a href="#blogs">blogs</a>
+        </div>
+        <div class="icons">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping" id="cart-btn"></i>
+            <i class="fa-solid fa-bars" id="menu-btn"></i>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container" id="cart-items-container">
+
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://img.freepik.com/premium-photo/cappuccino-with-ice-cubes-tall-glass-against-black-background-iced-coffee-with-milk_844466-457.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://img.freepik.com/free-photo/front-view-coffee-latte-with-coffee-beans_141793-4603.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://img.freepik.com/premium-vector/perfect-red-cup-coffee-with-steam_259139-927.jpg?size=626&ext=jpg&ga=GA1.1.775405286.1689048096&semt=ais" alt="">
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="https://img.freepik.com/free-photo/front-view-coffee-latte-with-coffee-beans_141793-4603.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <div class="content">
+                    <h3>cart item 1</h3>
+                    <div class="price">$15.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+    </header>
+
+    <!-- header end... -->
+
+    <!-- home section -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>fresh coffee in the morning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus veniam provident minima distinctio similique cupiditate perferendis minus iusto quas, nulla, dolorum inventore fugit dolor eaque voluptatem? Provident non quasi tempora?</p>
+            <a href="#" class="btn">get yours now</a>
+        </div>
+    </section>
+
+    <!-- home section end -->
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span>us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29mZmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+
+            <div class="content">
+                <h3>what makes our coffee special</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex consectetur veritatis, vitae provident dolores quo? Deleniti quae ducimus sequi voluptates sit. Dignissimos eos voluptate consequatur repellendus recusandae molestias vel!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente recusandae labore obcaecati cum eligendi voluptatibus eaque nemo, debitis officiis, sint, voluptas perferendis iure fuga mollitia hic fugiat voluptatem consectetur cupiditate!</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section end -->
+
+    <!-- menu section -->
+
+    <section class="menu" id="menu">
+        <h1 class="heading">our <span>menu</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/ice-black-coffee-glass-wooden-table_1150-13462.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/free-photo/front-view-coffee-latte-with-coffee-beans_141793-4603.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-vector/perfect-red-cup-coffee-with-steam_259139-927.jpg?size=626&ext=jpg&ga=GA1.1.775405286.1689048096&semt=ais" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/white-coffee-mug-with-raf-coffee-blackberries-saucer_400928-370.jpg" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/winter-hot-chocolate-cocoa-drink-tall-glass-with-ispices-whipped-cream-black-table-dark-blue-background-copy-space_630207-1945.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="https://img.freepik.com/premium-photo/cappuccino-with-ice-cubes-tall-glass-against-black-background-iced-coffee-with-milk_844466-457.jpg?size=626&ext=jpg&ga=GA1.2.775405286.1689048096&semt=sph" alt="">
+                <h3>tasty and healty</h3>
+                <div class="price">$15.99 <span>20.99</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section end -->
+
+    <!-- product section  -->
+
+    <section class="products" id="products">
+        <h1 class="heading">our <span>products</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.1.775405286.1689048096&semt=ais" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.1.775405286.1689048096&semt=ais" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+
+                <div class="image">
+                    <img src="https://img.freepik.com/free-vector/realistic-coffee-advertisement_52683-659.jpg?size=626&ext=jpg&ga=GA1.1.775405286.1689048096&semt=ais" alt="">
+                </div>
+
+                <div class="content">
+                    <h3>fresh coffee</h3>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- product section  -->
+
+    <!-- review section start -->
+
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum voluptates recusandae labore quam corrupti, beatae quo, libero laboriosam vero dignissimos similique fugit deserunt inventore earum ea! Harum, odio accusamus.</p>
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60" class="user" alt="">
+                <h3>soffie schott</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum voluptates recusandae labore quam corrupti, beatae quo, libero laboriosam vero dignissimos similique fugit deserunt inventore earum ea! Harum, odio accusamus.</p>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZSUyMHBpY3R1cmV8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=500&q=60" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-quote-left"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum voluptates recusandae labore quam corrupti, beatae quo, libero laboriosam vero dignissimos similique fugit deserunt inventore earum ea! Harum, odio accusamus.</p>
+                <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8MXwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" class="user" alt="">
+                <h3>ella mick</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review section end -->
+
+    <!-- contact  section  -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span>us</h1>
+
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.5276362433033!2d74.49069417535789!3d19.902158281480073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdc451655d9bd5d%3A0x2abbf4821b54e825!2sMAHARAJA%20CAFE!5e0!3m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="Enter Your Number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <!-- contact  section  ends-->
+
+    <!-- blog section start  -->
+
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://plus.unsplash.com/premium_photo-1674407009848-4da7a12b6b25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNvZmZlZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iusto, quae voluptatibus necessitatibus maiores assumenda deleniti nisi atque ipsam nostrum! Vitae placeat quaerat nam in qui aut voluptatibus optio at!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://images.unsplash.com/photo-1459755486867-b55449bb39ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvZmZlZXxlbnwwfDB8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iusto, quae voluptatibus necessitatibus maiores assumenda deleniti nisi atque ipsam nostrum! Vitae placeat quaerat nam in qui aut voluptatibus optio at!</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="https://plus.unsplash.com/premium_photo-1671379523824-c8aae61cb52a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y29mZmVlfGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio iusto, quae voluptatibus necessitatibus maiores assumenda deleniti nisi atque ipsam nostrum! Vitae placeat quaerat nam in qui aut voluptatibus optio at!</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- blog section end  -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <span>mr. kalyan kale</span> | all rights reserved</div>
+   
+    </section>
+    
+    <!-- footer section  -->
+
+    <script src="script.js"></script>
+</body>
+</html>
